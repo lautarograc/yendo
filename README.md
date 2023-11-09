@@ -1,5 +1,4 @@
 # C9-03
-Cohorte 9, grupo 3 Ruby on Rails
 
 Información importante:
 
@@ -8,9 +7,7 @@ Seguir este flujo respecto a las branches:
 
 La rama de Main es la base de los deploys, tiene configuraciones especiales y por lo tanto se debe hacer pull desde develop y evitar pushear a main.
 
-Los PRs con features deben hacerse a release, luego cada jueves debe pushearse lo que se haya logrado meter en el release a development y de allí se debe pushear a main para hacer el deploy. Luego, cuando comienza el nuevo sprint, debe hacerse un pull de development para traer la versión actualizada. 
-
-
+Los PRs con features deben hacerse a release. Fixes van como hotfixes a main.
 
 Para inicializar el proyecto, puedes hacerlo con Docker (recomendado) o localmente.
 
@@ -18,7 +15,7 @@ Para hacerlo con Docker, importante tener docker compose instalado (sigue esta g
 
 CD a la repo
 
-`cd C9-03`
+`cd yendo-app`
 
 Build imagenes
 `docker compose build`
@@ -41,30 +38,3 @@ y ejecuta el server
 `rails s`
 
 (recuerda instalar el bundle primero)
-
-
-
-## Información:
-### Trello (Agile management)
-https://trello.com/b/FdZaGEtn
-
-
-## Recursos / Recomendaciones
-### Agregá abajo algún recurso, lectura, tutorial, tip o consejo que consideres puede ser de ayuda y/o de referencia
-#### Rails
-https://www.rubylearning.dev/
-
-#### Git
-
-https://www.w3schools.com/git/
-
-### Releases:
-
-## Semana 4:
-https://yendo.graciani.ar
-
-# Integrantes
-- Lautaro Graciani, FullStack
-- María Martin, UX-UI / Front end
-- Rocío Godoy, Fullstack
-- Rodrigo Ladron de Guevara, Backend
